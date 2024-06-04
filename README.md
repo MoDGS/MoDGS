@@ -1,4 +1,9 @@
 ## Hi there 👋
+# MoDGS
+offical codes of Paper 
+[MoDGS: Dynamic Gaussian Splatting from Causually-captured
+Monocular Videos](https://MoDGS.github.io/)
+
 
 <!--
 **MoDGS/MoDGS** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
