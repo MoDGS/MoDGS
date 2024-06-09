@@ -1,8 +1,8 @@
 ## Hi there 👋
 # MoDGS
-offical codes of Paper 
-[MoDGS: Dynamic Gaussian Splatting from Causually-captured
-Monocular Videos](https://MoDGS.github.io/)
+This repor contains the offical codes of Paper 
+[MoDGS: Dynamic Gaussian Splatting from Causually-captured Monocular Videos](https://MoDGS.github.io/)
+(release later)
 
 
 <!--
