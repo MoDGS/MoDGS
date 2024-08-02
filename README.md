@@ -1,4 +1,7 @@
-## Hi there 👋
+## [Project page](https://modgs.github.io/) | [Paper](https://arxiv.org/abs/2406.00434)
+- [ ]  code(preprocessing and training).
+- [ ] Self-collected data
+
 # MoDGS
 This repor contains the offical codes of Paper 
 [MoDGS: Dynamic Gaussian Splatting from Causually-captured Monocular Videos](https://MoDGS.github.io/)
