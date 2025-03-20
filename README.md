@@ -1,6 +1,6 @@
 ## [Project page (ICLR 2025)](https://modgs.github.io/) | [Paper (ArXiv)](https://arxiv.org/abs/2406.00434) | [OpenReview](https://openreview.net/forum?id=2prShxdLkX)
 ## TODO List:
-- [x] Codes of Core techniques proposed MoDGS.
+- [x] Core techniques codes of proposed MoDGS.
 - [ ] Training Codes(preprocessing and training).
 - [ ] Rendering instruction 
 - [ ] Self-collected data
