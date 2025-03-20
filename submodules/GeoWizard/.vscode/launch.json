@@ -1,0 +1,37 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "env":{"CUDA_VISIBLE_DEVICES":"2"},
+            "justMyCode": false,
+            "args": [    "--input_dir",
+             "/data/qingmingliu/Dataset/dynamic/SelfMade/Pamela/rgb/2x/*.png", 
+            //  "/data/qingmingliu/Dataset/dynamic/MonoDyNeRF_selfmade/Cut_roastedbeef/cam00/images/2x/*.png", 
+            //  "/data/qingmingliu/Dataset/dynamic/SelfMade/CelloGirl/images/2x/*.png", 
+            //  "/data/qingmingliu/sourcecodes/editableInstall/GeoWizard/geowizard/input/example/*.jpg", 
+            //  "/data/qingmingliu/Dataset/dynamic/IphoneDataset/iphone/space-out/rgb/2x/0_*.png", 
+            "--output_dir",
+            "/data/qingmingliu/Dataset/dynamic/SelfMade/Pamela/GeoWizardOut",
+            // "/data/qingmingliu/Dataset/dynamic/MonoDyNeRF_selfmade/Cut_roastedbeef/cam00/GeoWizardOut",
+            // "/data/qingmingliu/Dataset/dynamic/SelfMade/CelloGirl/GeoWizardOut",
+            // "/data/qingmingliu/Dataset/dynamic/IphoneDataset/iphone/space-out/GeoWizard",
+            "--denoise_steps", "30",
+            // "--denoise_steps", "10",
+            "--ensemble_size", "5",
+            // "--ensemble_size", "3",
+            
+            "--domain", "outdoor"]
+            // "--domain", "indoor"]
+            // /data/qingmingliu/Dataset/dynamic/IphoneDataset/iphone/space-out/
+
+        }
+    ]
+}

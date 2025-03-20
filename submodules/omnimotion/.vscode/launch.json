@@ -1,0 +1,29 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "env":{"CUDA_VISIBLE_DEVICES":"0" ,},//"CUDA_LAUNCH_BLOCKING":"1"}, //,"CUDA_LAUNCH_BLOCKING":"1"},
+        // // training 
+        //     "args": ["--config", "configs/default.txt", "--data_dir","/data/qingmingliu/mnt/data/data_release/tennis",
+        // "--save_dir","tennis_0528_","--expname","tenis","--num_iters","10000000"],
+
+        // viz trails
+            "args": ["--config", "configs/default.txt", "--data_dir","/data/qingmingliu/mnt/data/data_release/tennis",
+        "--save_dir","tennis_0923_2","--expname","tenis","--num_iters","10000000","--foreground_mask_path","/data/qingmingliu/mnt/data/data_release/tennis/mask/00000.png"],
+
+
+
+
+       
+    
+         }
+    ]
+}
