@@ -7,7 +7,7 @@
 - [ ] Codes Branch dealing with moving camera scenes.(e.g, Davis)
 
 ## 
-Hi, this is Qingming. So sorry for the late release. I’m currently very busy(for my exam), but you can refer to our core codes located in `train_PointTrackGS.py`(3D-aware initialization and Ordinal depth loss) and `pointTrack.py`( 3D Flow pairs extraction). I will provide detailed processing instructions later when I have more time. Thank you for your understanding! 
+Hi, this is Qingming. So sorry for the late release. I’m currently very busy(for my exam), but you can refer to our core codes located in `train_PointTrackGS.py`(3D-aware initialization and Ordinal depth loss) and `pointTrack.py`( 3D Flow pairs extraction). I will provide detailed processing instructions later when I have more time(one or two week). Thank you for your understanding! 
 
 
 ## Prepare your environment
@@ -85,7 +85,7 @@ Run the following script:
 ./scripts/run_stage1.sh
 ```
 
-### Stage 2: Optimizing the 4D Representation via Rendering Losses
+### Stage 2: Optimizing the 4D Representation via Rendering and Ordinal Depth Losses
 
 Run the following script:
 
